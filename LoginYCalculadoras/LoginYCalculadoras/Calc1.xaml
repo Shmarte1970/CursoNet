@@ -1,0 +1,26 @@
+﻿<Window x:Class="LoginYCalculadoras.Calc1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LoginYCalculadoras"
+        mc:Ignorable="d"
+        Title="Calc1" Height="450" Width="800">
+    <Grid x:Name="btn_Atras">
+        <Label x:Name="Title_Calc" Content="Calculadora Simple" HorizontalAlignment="Left" Height="72" Margin="77,10,0,0" VerticalAlignment="Top" Width="287" FontSize="18" FontFamily="Verdana" FontWeight="Bold" Padding="15,25,5,5"/>
+        <Button Content="" HorizontalAlignment="Left" Height="57" Margin="77,345,0,0" VerticalAlignment="Top" Width="105" Click="Button_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/arrow_left.png"/>
+            </Button.Background>
+        </Button>
+        <TextBox x:Name="PantallaNum1" HorizontalAlignment="Left" Height="69" Margin="77,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="338" FontSize="55" FontWeight="Bold" Padding="0,-10,-11,0"/>
+        <TextBox x:Name="PantallaNum2" HorizontalAlignment="Left" Height="69" Margin="77,170,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="338" FontSize="55" Padding="0,-10,0,0" FontWeight="Bold"/>
+        <Button x:Name="BtnSuma" HorizontalAlignment="Left" Margin="450,82,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.132,-0.145" Height="69" Width="131" Content="+" Click="BtnSuma_Click" FontSize="70" FontWeight="Bold" Padding="1,-23,1,1"/>
+        <Button x:Name="BtnMulti" HorizontalAlignment="Left" Margin="608,82,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.132,-0.145" Height="69" Width="131" Content="*" Click="BtnMulti_Click" FontSize="80" FontWeight="Bold" Padding="1,-12,1,1"/>
+        <Button x:Name="BtnResta" Content="-" HorizontalAlignment="Left" Margin="450,170,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.132,-0.145" Height="69" Width="131" Click="BtnResta_Click" FontSize="90" FontWeight="Bold" Padding="1,-42,1,1"/>
+        <Button x:Name="BtnDiv" Content="/" HorizontalAlignment="Left" Margin="608,170,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.132,-0.145" Height="69" Width="131" Click="BtnDiv_Click" FontSize="70" FontWeight="Bold" Padding="1,-20,1,1"/>
+        <Label x:Name="PantallaResultado" Content="" HorizontalAlignment="Left" Height="69" Margin="77,256,0,0" VerticalAlignment="Top" Width="662" Background="#FFD4CECE" FontSize="40" FontWeight="Bold" Padding="5,-10,5,5"/>
+        <Button x:Name="btn_Exit" Content="Exit" HorizontalAlignment="Left" Height="57" Margin="634,345,0,0" VerticalAlignment="Top" Width="105" FontSize="18" FontWeight="Bold" FontFamily="Verdana" Click="btn_Exit_Click"/>
+
+    </Grid>
+</Window>

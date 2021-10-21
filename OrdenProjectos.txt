@@ -1,0 +1,25 @@
+Aquesta és l'estructura de les Carpetes d'al curs .NET
+
+
+
+Arrays → Conceptes i Exemples d'Arrays
+CaclCS --> Calculadora C# Petita
+CalcCSGrande →  Calculadora Gràfica en C#
+CaclJS → Calculadora Senzilla en Jscript.
+EntrePantallas → Exemple de canvi entre pantalles
+enum → Exemple enum
+Funcions → Exemple Funcions
+HolaMon → Exemple HolaMon
+LoginCS → Projecte login C# User LindaPandero Pass 1234
+LoginJs → Projecte login a Js User LindaPandero Pass 1234
+LoginYCalculadoras → Fusio entre el projecte Login i les Dues Calculadores
+		     User LindaPandero Pass 1234 		
+Operacions → Model de Operacions
+PrimerPanel → Model d'Inserció en panell
+switch --> Exemple switch $ if
+TryCatch -->Exemple TryCatch (en JS & C#)
+Bucles --> Exemple practic de For, While y Foreach (en C# & JS)
+ClasesyObjetos --> Exemple de Clases i Objetes en C# i JS
+
+
+

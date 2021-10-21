@@ -1,0 +1,36 @@
+﻿<Window x:Class="CalcCSGrande.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CalcCSGrande"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="620" Width="520">
+    <Grid x:Name="BtnPower">
+        <Button x:Name="Btn7" Content="7" HorizontalAlignment="Left" Height="64" Margin="12,292,0,0" VerticalAlignment="Top" Width="106" FontSize="30" FontFamily="Verdana" FontWeight="Bold" Click="Btn7_Click"/>
+        <Button x:Name="Btn4" Content="4" HorizontalAlignment="Left" Height="64" Margin="12,361,0,0" VerticalAlignment="Top" Width="106" FontSize="30" FontFamily="Verdana" FontWeight="Bold" Click="Btn4_Click"/>
+        <Button x:Name="Btn1" Content="1" HorizontalAlignment="Left" Height="64" Margin="12,430,0,0" VerticalAlignment="Top" Width="106" FontSize="30" FontFamily="Verdana" FontWeight="Bold" Click="Btn1_Click"/>
+        <Button x:Name="Btn0" Content="0" HorizontalAlignment="Left" Height="64" Margin="12,499,0,0" VerticalAlignment="Top" Width="106" FontSize="30" FontFamily="Verdana" FontWeight="Bold" Click="Btn0_Click"/>
+        <Button x:Name="Btn8" Content="8" HorizontalAlignment="Left" Height="64" Margin="123,292,0,0" VerticalAlignment="Top" Width="106" FontSize="30" FontFamily="Verdana" FontWeight="Bold" Click="Btn8_Click"/>
+        <Button x:Name="Btn5" Content="5" HorizontalAlignment="Left" Height="64" Margin="123,361,0,0" VerticalAlignment="Top" Width="106" FontSize="30" FontFamily="Verdana" FontWeight="Bold" Click="Btn5_Click"/>
+        <Button x:Name="Btn2" Content="2" HorizontalAlignment="Left" Height="64" Margin="123,430,0,0" VerticalAlignment="Top" Width="106" FontSize="30" FontFamily="Verdana" FontWeight="Bold" Click="Btn2_Click"/>
+        <Button x:Name="BtnPunto" Content="." HorizontalAlignment="Left" Height="64" Margin="123,499,0,0" VerticalAlignment="Top" Width="106" FontSize="80" FontFamily="Verdana" Padding="1,-40,1,1" Click="BtnPunto_Click_1"/>
+        <Button x:Name="Btn9" Content="9" HorizontalAlignment="Left" Height="64" Margin="234,292,0,0" VerticalAlignment="Top" Width="106" FontSize="30" FontFamily="Verdana" FontWeight="Bold" Click="Btn9_Click"/>
+        <Button x:Name="btn6" Content="6" HorizontalAlignment="Left" Height="64" Margin="234,361,0,0" VerticalAlignment="Top" Width="106" FontSize="30" FontFamily="Verdana" FontWeight="Bold" Click="btn6_Click"/>
+        <Button x:Name="Btn3" Content="3" HorizontalAlignment="Left" Height="64" Margin="234,430,0,0" VerticalAlignment="Top" Width="106" FontSize="30" FontFamily="Verdana" FontWeight="Bold" Click="Btn3_Click"/>
+        <Button x:Name="BtnIgual" Content="=" HorizontalAlignment="Left" Height="64" Margin="234,499,0,0" VerticalAlignment="Top" Width="106" FontSize="48" FontFamily="Verdana" FontWeight="Bold" Padding="1,-7,1,1" Click="BtnIgual_Click"/>
+        <Button x:Name="BtnDiv" Content="/" HorizontalAlignment="Left" Height="64" Margin="386,292,0,0" VerticalAlignment="Top" Width="106" FontSize="50" FontFamily="Verdana" FontWeight="Bold" Padding="1,-3,1,1" Click="BtnDiv_Click_1"/>
+        <Button x:Name="btnMulti" Content="*" HorizontalAlignment="Left" Height="64" Margin="386,361,0,0" VerticalAlignment="Top" Width="106" FontSize="50" FontFamily="Verdana" FontWeight="Bold" Padding="1,5,1,1" Click="btnMulti_Click_1"/>
+        <Button x:Name="BtnResta" Content="-" HorizontalAlignment="Left" Height="64" Margin="386,430,0,0" VerticalAlignment="Top" Width="106" FontSize="60" FontFamily="Verdana" FontWeight="Bold" Padding="1,-9,1,1" Click="BtnResta_Click_1"/>
+        <Button x:Name="btnSuma" Content="+" HorizontalAlignment="Left" Height="64" Margin="386,499,0,0" VerticalAlignment="Top" Width="106" FontSize="48" FontFamily="Verdana" FontWeight="Bold" Padding="1,-7,1,1" Click="btnSuma_Click"/>
+        <Button x:Name="BtnC" Content="C" HorizontalAlignment="Left" Height="64" Margin="234,223,0,0" VerticalAlignment="Top" Width="106" FontSize="30" FontFamily="Verdana" FontWeight="Bold" Click="BtnC_Click"/>
+        <TextBox x:Name="Pantalla2" HorizontalAlignment="Center" Margin="0,26,0,0" VerticalAlignment="Top" Width="500" Height="66" TextWrapping="Wrap" MaxLength="15" BorderThickness="0,0,0,0" FontSize="45" FontFamily="Verdana" FontWeight="Bold" FlowDirection="RightToLeft" />
+        <TextBox x:Name="Pantalla1" HorizontalAlignment="Center" Margin="0,92,0,0" VerticalAlignment="Top" Width="500" Height="66" TextWrapping="Wrap" MaxLength="15" BorderThickness="0,0,0,0" FlowDirection="RightToLeft" FontSize="45" FontFamily="Verdana" FontWeight="Bold"/>
+        <Button x:Name="BtnBorrar" Content="Borrar" HorizontalAlignment="Left" Height="64" Margin="123,223,0,0" VerticalAlignment="Top" Width="106" FontSize="25" FontFamily="Verdana" FontWeight="Bold" Click="BtnBorrar_Click"/>
+        <Button x:Name="BtnCuadrado" Content="^2" HorizontalAlignment="Left" Height="64" Margin="10,154,0,0" VerticalAlignment="Top" Width="106" Click="BtnCuadrado_Click" FontSize="25" FontFamily="Verdana" FontWeight="Bold"/>
+        <Button x:Name="BtnSQRT" Content="SQRT" HorizontalAlignment="Left" Margin="12,223,0,0" VerticalAlignment="Top" Height="64" Width="106" FontSize="25" FontFamily="Verdana" FontWeight="Bold" Click="BtnSQRT_Click"/>
+
+
+
+    </Grid>
+</Window>

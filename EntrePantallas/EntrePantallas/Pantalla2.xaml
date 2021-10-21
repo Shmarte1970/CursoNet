@@ -1,0 +1,18 @@
+﻿<Window x:Class="EntrePantallas.Pantalla2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EntrePantallas"
+        mc:Ignorable="d"
+        Title="Pantalla2" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btn_after" Content="" HorizontalAlignment="Left" Margin="300,217,0,0" VerticalAlignment="Top" Height="75" Width="155" Click="btn_next">
+            <Button.Background>
+                <ImageBrush ImageSource="/arrow_left.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+        <Label x:Name="Pantalla1" Content="Pantalla 2" HorizontalAlignment="Left" Margin="300,129,0,0" VerticalAlignment="Top" Height="51" Width="155" FontSize="25" FontFamily="Verdana" FontWeight="Bold"/>
+
+    </Grid>
+</Window>

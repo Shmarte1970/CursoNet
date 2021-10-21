@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="arrow_left.png" />
+    <None Remove="arrow_right.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="arrow_left.png" />
+    <Resource Include="arrow_right.png" />
+  </ItemGroup>
+
+</Project>
